@@ -3,8 +3,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -15,4 +15,37 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  text-align: center;
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 10px;
+
+  width: 160px;
+  margin: 50px 50px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  border-radius: 5px;
+
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2),
+    inset 0 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+.timer{
+  display:flex; 
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.value{
+  font-size: 35px;
+  font-style: bold;
+}
+
+input{
+  font-size: 20px;
 }
